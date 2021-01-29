@@ -1,0 +1,10 @@
+Viirused Trooja hobused ja Interneti-ussid,77
+Ebaseaduslikud toimingud infosusteemide abil,60
+Spam,56
+Kliendiandmete konfidentsiaalsuse kaotus,48
+Finantspettused,45
+IT-susteemide vaarkasutamine kaasates kolmandaid isikuid,45
+Fuusiline turvalisus,42
+Lungad tarkvara turvasusteemides,39
+Kehv tarkvara kvaliteet,38
+Teabe konfidentsiaalsuse varastamine,37
