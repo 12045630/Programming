@@ -1,0 +1,3 @@
+dva
+tri
+odin
