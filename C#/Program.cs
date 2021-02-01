@@ -13,7 +13,6 @@ namespace cw01._02
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            Console.Beep();
             int a = rnd.Next(1, 50);
             Console.WriteLine(a);
             string text = "";
@@ -36,17 +35,39 @@ namespace cw01._02
             text = filest.ReadToEnd();
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.BackgroundColor =ConsoleColor.Yellow;
-            Console.SetCursorPosition(20,5);
+            //Console.Clear();
+            Console.SetCursorPosition(20,5); 
             Console.WriteLine("Failis on text: \n {0}", text);
-            
+
+            int [] numbers=new int[5] {1,2,3,4,5 } ;
+            foreach (var i in numbers)
+            {
+                Console.WriteLine(i);
+            }
+            for (int j = 0; j < numbers.Length; j++)
+            {
+                Console.WriteLine(numbers[j]);
+            }
+
+            Random r = new Random();
+            int[] numbers2 = new int[6];
+            for (int k = 0; k < numbers.Length; k++)
+            {
+
+                numbers2[k] = r.Next(1, 200);
+            }
+            foreach (var i in numbers2)
+            {
+                Console.WriteLine(i);
+            }
             ConsoleKeyInfo nupp = new ConsoleKeyInfo();
             do
             {
                 Console.WriteLine("Vajuta Backspace...");
                 nupp = Console.ReadKey();
 
-                
-            } while (nupp.Key!=ConsoleKey.Backspace);
+
+            } while (nupp.Key != ConsoleKey.Backspace);
 
             Console.ReadLine();
         }
