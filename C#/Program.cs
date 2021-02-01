@@ -36,7 +36,7 @@ namespace cw01._02
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.BackgroundColor =ConsoleColor.Yellow;
             //Console.Clear();
-            Console.SetCursorPosition(20,5); 
+            Console.SetCursorPosition(5,5); 
             Console.WriteLine("Failis on text: \n {0}", text);
 
             int [] numbers=new int[5] {1,2,3,4,5 } ;
@@ -60,6 +60,20 @@ namespace cw01._02
             {
                 Console.WriteLine(i);
             }
+
+            int[,] numbers3 = new int[4,10];
+            for (int i = 0; i<numbers3.GetLength(0) ; i++)
+            {
+                for (int j = 0; j < numbers3.GetLength(1); j++)
+                {
+                    numbers3[i, j] = 1;
+                    Console.Write(numbers3[i, j]);
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            Console.ReadLine();
+
             ConsoleKeyInfo nupp = new ConsoleKeyInfo();
             do
             {
