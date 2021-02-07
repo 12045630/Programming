@@ -4,49 +4,7 @@
     <projectFile>Test1/Test1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35152805-c3f7-41ab-9394-35cff401e410" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/Test1.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/Test1.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/Test1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/Test1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/Test1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/Test1.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/Test1.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/bin/Debug/net5.0/ref/Test1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/Test1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Debug/net5.0/ref/Test1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Test1.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Test1.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/Test1.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cw01.02.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cw01.02.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cw01.02.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../text.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="35152805-c3f7-41ab-9394-35cff401e410" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Homework/Snake/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1o9vDDnvbuZzRIM9kSShvgbDILQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612711500137</updated>
-      <workItem from="1612711507704" duration="690000" />
+      <workItem from="1612711507704" duration="939000" />
     </task>
     <servers />
   </component>

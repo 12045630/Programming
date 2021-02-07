@@ -24,7 +24,7 @@ namespace Snake
             Point food = foodCreator.CreateFood();
             food.Draw();
             int score = 0;
-
+            
             while (true)
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())
@@ -50,10 +50,9 @@ namespace Snake
                     snake.HandleKey(key.Key);
                     
                 }
-                //Console.ReadLine();
             }
-
             TotalScore(score);
+            Leader name = new Leader(score);
         }
         
         static void WriteInt(string text1,int text, int xOffset, int yOffset)
@@ -71,7 +70,6 @@ namespace Snake
             Console.SetCursorPosition( xOffset, yOffset++ );
             WriteInt(" Всего ",score,xOffset,yOffset++);
         }
-        
-        
+
     }
 }

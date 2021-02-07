@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Snake\\Snake.csproj": {}
+    "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\Snake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Snake\\Snake.csproj": {
+    "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\Snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Snake\\Snake.csproj",
+        "projectUniqueName": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\Snake.csproj",
         "projectName": "Snake",
-        "projectPath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Snake\\Snake.csproj",
+        "projectPath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\Snake.csproj",
         "packagesPath": "C:\\Users\\Vad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Snake\\obj\\",
+        "outputPath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "WMPLib": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

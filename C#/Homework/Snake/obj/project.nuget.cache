@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "eG22HuK3wzlbiiEXK/buEboiHlZLww9i34GVxP8GfppZefwvBkFoIZvh8Q6zBqzYU0FDAsQixxFNgVPU0MlCBg==",
+  "dgSpecHash": "26w6BNcspRdaD9y/ijGS/ENbQ/k7Cal0wzisE+AsIDzVizKI3ro7ilpbnOTtJEvciPJdP210qDBrPcBfxeylHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Snake\\Snake.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\Snake.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vad\\.nuget\\packages\\wmplib\\1.0.0\\wmplib.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WMPLib 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WMPLib",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
