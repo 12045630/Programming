@@ -23,7 +23,7 @@ namespace Snake
             FoodCreator foodCreator = new FoodCreator(79, 24, '$');
             Point food = foodCreator.CreateFood();
             food.Draw();
-            int score = 0;
+            +int score = 0;
             
             while (true)
             {
