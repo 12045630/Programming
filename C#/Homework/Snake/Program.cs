@@ -24,7 +24,12 @@ namespace Snake
             Point food = foodCreator.CreateFood();
             food.Draw();
             int score = 0;
-            
+
+            Params settings = new Params();
+            Sounds sound = new Sounds(settings.GetResourcesFolder()); 
+            sound.Play();
+            Sounds soundEat = new Sounds(settings.GetResourcesFolder()); 
+            while(true) 
             while (true)
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())

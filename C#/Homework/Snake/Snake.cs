@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WMPlip;
 
 namespace Snake
 {
-	class Snake : Figure
+    partial class Snake : Figure
 	{
 		Direction direction;
-
 		public Snake(Point tail, int length, Direction _direction)
 		{
 			direction = _direction;

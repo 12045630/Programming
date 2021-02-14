@@ -1,12 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "26w6BNcspRdaD9y/ijGS/ENbQ/k7Cal0wzisE+AsIDzVizKI3ro7ilpbnOTtJEvciPJdP210qDBrPcBfxeylHA==",
+  "dgSpecHash": "F0PtZcrJ/SncFHVP8q/Me6D9HTjVDk82uVHINkhSTJMv9NDIVHjxxm6juAwZy73E8Mo7t9AsnxMJQcsU7KrXDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vad\\Desktop\\homework\\Programming\\C#\\Homework\\Snake\\Snake.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vad\\.nuget\\packages\\hinetcloud.axinterop.wmplib\\20.7.2.10\\hinetcloud.axinterop.wmplib.20.7.2.10.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\microsoft.qualitytools.testing.fakes\\16.7.4-beta.20330.2\\microsoft.qualitytools.testing.fakes.16.7.4-beta.20330.2.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Vad\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\Vad\\.nuget\\packages\\wmplib\\1.0.0\\wmplib.1.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HiNetCloud.AxInterop.WMPLib 20.7.2.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HiNetCloud.AxInterop.WMPLib",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
