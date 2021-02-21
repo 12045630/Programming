@@ -11,6 +11,15 @@
           "lib/net46/AxInterop.WMPLib.dll": {}
         }
       },
+      "HiNetCloud.Interop.WMPLib/20.7.2.10": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Interop.WMPLib.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Interop.WMPLib.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -216,6 +225,18 @@
         "hinetcloud.axinterop.wmplib.20.7.2.10.nupkg.sha512",
         "hinetcloud.axinterop.wmplib.nuspec",
         "lib/net46/AxInterop.WMPLib.dll"
+      ]
+    },
+    "HiNetCloud.Interop.WMPLib/20.7.2.10": {
+      "sha512": "No2mPKa8b6f+MAsOz52pMdu16Yuaq30ogTmoH/jjuVjGzNB2J8DpkxOkJgYBf8Sy6V3ZkfqXAI8d0T3w0Zh/WA==",
+      "type": "package",
+      "path": "hinetcloud.interop.wmplib/20.7.2.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hinetcloud.interop.wmplib.20.7.2.10.nupkg.sha512",
+        "hinetcloud.interop.wmplib.nuspec",
+        "lib/net46/Interop.WMPLib.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -568,6 +589,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "HiNetCloud.AxInterop.WMPLib >= 20.7.2.10",
+      "HiNetCloud.Interop.WMPLib >= 20.7.2.10",
       "Microsoft.QualityTools.Testing.Fakes >= 16.7.4-beta.20330.2",
       "WMPLib >= 1.0.0"
     ]
@@ -615,6 +637,10 @@
             "target": "Package",
             "version": "[20.7.2.10, )"
           },
+          "HiNetCloud.Interop.WMPLib": {
+            "target": "Package",
+            "version": "[20.7.2.10, )"
+          },
           "Microsoft.QualityTools.Testing.Fakes": {
             "target": "Package",
             "version": "[16.7.4-beta.20330.2, )"
@@ -652,6 +678,16 @@
       "warningLevel": 1,
       "message": "Package 'HiNetCloud.AxInterop.WMPLib 20.7.2.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "HiNetCloud.AxInterop.WMPLib",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HiNetCloud.Interop.WMPLib 20.7.2.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HiNetCloud.Interop.WMPLib",
       "targetGraphs": [
         "net5.0"
       ]

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Threading;
 
 namespace Snake
 {
@@ -8,6 +9,7 @@ namespace Snake
     {
         public Leader(int score)
         {
+            Thread.Sleep(2000);
             Console.Clear(); //Очищаем консоль
             Console.WriteLine("Write onw Name or Nickname: "); //Пишем в консоли что нужно ввести ник
             string name = Console.ReadLine(); //Переход на следующую строку и вводим имя игрока

@@ -20,8 +20,10 @@ namespace Snake
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(79, 24, '$');
+            FoodCreator foodCreator = new FoodCreator(79, 24, '$','+','-');
             Point food = foodCreator.CreateFood();
+            Point spsfood = foodCreator.CreateSpsFood();
+            Point badfood = foodCreator.CreateBadFood();
             food.Draw();
             int score = 0;
 
@@ -29,7 +31,8 @@ namespace Snake
             Sounds sound = new Sounds(settings.GetResourcesFolder()); 
             sound.Play();
             Sounds soundEat = new Sounds(settings.GetResourcesFolder()); 
-            while(true) 
+
+
             while (true)
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())
@@ -41,14 +44,35 @@ namespace Snake
                     food = foodCreator.CreateFood();
                     food.Draw();
                     score++;
-                    Colors col = new Colors(score);
+                    soundEat.EatPlay();
+                    
+                    if (score > 2)
+                    {
+                        spsfood = foodCreator.CreateSpsFood(); //создаём спец еду
+                        spsfood.Draw(); //отрисовываем спец еду
+                        badfood = foodCreator.CreateBadFood();
+                        badfood.Draw();
+                    }
                 }
+                Colors col = new Colors(score);
+                Speed spe =new Speed(score);
+                if (snake.Eat(spsfood)) //Если спец. еду съедают то ...
+                {
+                    score += 4;
+                    soundEat.PlaySpsEat();
+                }
+                if (snake.Eat(badfood))
+                {
+                    score -= 4;
+                    soundEat.PlayBadEat();
+                }
+
                 else
                 {
                     snake.Move();
                     Thread.Sleep(100);
                 }
-                
+
                 if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
@@ -56,6 +80,7 @@ namespace Snake
                     
                 }
             }
+            sound.PlayStop();
             TotalScore(score);
             Leader name = new Leader(score);
         }

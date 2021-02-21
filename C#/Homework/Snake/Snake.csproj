@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <PackageReference Include="HiNetCloud.AxInterop.WMPLib" Version="20.7.2.10" />
+      <PackageReference Include="HiNetCloud.Interop.WMPLib" Version="20.7.2.10" />
       <PackageReference Include="Microsoft.QualityTools.Testing.Fakes" Version="16.7.4-beta.20330.2" />
       <PackageReference Include="WMPLib" Version="1.0.0">
         <PrivateAssets>all</PrivateAssets>

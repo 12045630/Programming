@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[20.7.2.10, )"
             },
+            "HiNetCloud.Interop.WMPLib": {
+              "target": "Package",
+              "version": "[20.7.2.10, )"
+            },
             "Microsoft.QualityTools.Testing.Fakes": {
               "target": "Package",
               "version": "[16.7.4-beta.20330.2, )"

@@ -13,25 +13,37 @@ namespace Snake
 
         public void Play()
         {
-            player.URL = pathToMedia + "imposible.mp3";
+            player.URL = pathToMedia + "main.mp3";
             player.settings.volume = 3;
             player.controls.play();
             player.settings.setMode("loop", true);
         }
 
-        public void PlayEat()
+        public void EatPlay()
         {
-            player.URL = pathToMedia + "EetSound.wav";
+            player.URL = pathToMedia + "eat.mp3";
             player.settings.volume = 50;
             player.controls.play();
         }
 
         public void PlaySpsEat()
         {
-            player.URL = pathToMedia + "SPSEat.mp3";
+            player.URL = pathToMedia + "good.mp3";
             player.settings.volume = 50;
             player.controls.play();
         }
-       
+        public void PlayBadEat()
+        {
+            player.URL = pathToMedia + "bad.mp3";
+            player.settings.volume = 50;
+            player.controls.play();
+        }
+        public void PlayStop()
+        {
+            player.URL = pathToMedia + "main.mp3";
+            player.controls.stop();
+        }
     }
 }
+
+
